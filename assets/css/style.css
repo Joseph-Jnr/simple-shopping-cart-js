@@ -1,0 +1,212 @@
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:700,800");
+/* :: 2.0 Import All CSS */
+@import url(bootstrap.min.css);
+@import url(owl.carousel.min.css);
+@import url(font-awesome.min.css);
+@import url(flaticon.css);
+@import url(elegant_font.css);
+
+* {
+  font-family: "century gothic";
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  background: #c9302c;
+  color: #fff;
+  padding: 0 8px;
+  vertical-align: top;
+  border-radius: 50px;
+  margin-left: -9px;
+}
+
+.bg-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/35.jpg);
+  background-size: cover;
+  height: 60vh;
+}
+
+.text {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+
+.text p {
+  color: rgb(209, 207, 207);
+  font-size: 18px;
+  text-align: center;
+}
+
+.title-under {
+  width: 50px;
+  height: 5px;
+  background: rgb(10, 100, 100);
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.product-main {
+  margin-top: 40px;
+}
+
+.product-main .single {
+  background: red;
+  margin: 0 auto;
+}
+
+.product-main .single .pic img {
+  width: 220px;
+  height: auto;
+}
+
+.product-main {
+  margin-top: 50px;
+}
+.product-single {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .product-single {
+    margin-top: 20px;
+  }
+}
+
+.product-header img {
+  width: 180px;
+  height: auto;
+}
+.product-body {
+  padding: 5px;
+}
+.product-body h3 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 35px;
+  color: #033038;
+}
+.product-body p {
+  font-size: 13px;
+  margin-top: -35px;
+  color: #033038;
+  background-color: rgb(229, 231, 231);
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}
+.product-footer a {
+  border: 1px;
+}
+.my-btn {
+  color: #033038;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 44px;
+  padding: 0 15px;
+  width: 160px;
+  height: 46px;
+  border-left: 2px solid #7450fe;
+  border-right: 2px solid #21d397;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-image: -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%),
+    -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%);
+  background-image: linear-gradient(to right, #7450fe 0%, #21d397 100%),
+    linear-gradient(to right, #7450fe 0%, #21d397 100%);
+  -webkit-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  position: relative;
+  z-index: 1;
+}
+
+.my-btn:after {
+  color: #fff;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background: #7450fe;
+  background: -webkit-linear-gradient(to right, #7450fe, #21d397);
+  background: -webkit-linear-gradient(left, #7450fe, #21d397);
+  background: linear-gradient(to right, #7450fe, #21d397);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 2px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.my-btn:hover:after,
+.my-btn.my-active:after {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.my-btn.my-dark {
+  color: #232d37;
+}
+
+.my-btn:hover,
+.my-btn.my-dark:hover {
+  color: #fff;
+}
+
+footer {
+  background: rgb(187, 185, 185);
+  padding: 25px;
+}
+
+footer .copy {
+  margin-bottom: -15px;
+}
+
+footer .copy p {
+  color: #033038;
+}
+
+footer .social {
+  margin-top: -27px;
+}
+
+footer .social a {
+  margin-left: 5px;
+  padding: 10px;
+  color: #033038;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}

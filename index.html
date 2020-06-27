@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Shop</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <nav
+          id="navbar_top"
+          class="navbar navbar-expand-lg navbar-dark bg-dark fixed"
+        >
+          <a class="navbar-brand" href="#">My Shop</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+
+          <div>
+            <a href="" data-toggle="modal" data-target="#cart">
+              <em class="fa fa-shopping-cart fa-2x text-white"></em>
+              <span class="total-count label label-danger"></span>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="bg-header">
+        <div class="text">
+          <h1>Welcome to my Shop!</h1>
+          <p>Fashion at its peak</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Products -->
+      <div class="container-fluid">
+        <div class="product-main container">
+          <div class="product-header">
+            <h2 class="text-center">Products</h2>
+            <div class="title-under"></div>
+          </div>
+          <div class="row my-5">
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/6.jpg" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">Men's Suit</h3>
+                <p class="card-text pull-right">$300</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href="#"
+                  class="add-to-cart btn my-btn"
+                  data-name="Men's Suit"
+                  data-price="300"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/11.png" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">Winter Coat</h3>
+                <p class="pull-right">$400</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href=""
+                  class="add-to-cart btn my-btn"
+                  data-name="Winter Coat"
+                  data-price="400"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/6.jpg" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">Classy Suit</h3>
+                <p class="pull-right">$250</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href=""
+                  class="add-to-cart btn my-btn"
+                  data-name="Classy Suit"
+                  data-price="250"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/8.png" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">Black Shirt</h3>
+                <p class="pull-right">$120</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href=""
+                  class="add-to-cart btn my-btn"
+                  data-name="Black Shirt"
+                  data-price="120"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/10.png" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">T-Shirt</h3>
+                <p class="pull-right">$50</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href=""
+                  class="add-to-cart btn my-btn"
+                  data-name="T-Shirt"
+                  data-price="50"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+
+            <div class="product-single col-md-3">
+              <div class="product-header text-center">
+                <img src="assets/img/7.jpg" alt="" />
+              </div>
+              <div class="product-body">
+                <h3 class="">Ladies</h3>
+                <p class="pull-right">$120</p>
+              </div>
+              <hr />
+              <div class="product-footer text-center">
+                <a
+                  href=""
+                  class="add-to-cart btn my-btn"
+                  data-name="Ladies"
+                  data-price="120"
+                  ><i class="fa fa-shopping-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Products end -->
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price: $<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button class="clear-cart btn btn-danger">Clear Cart</button>
+            <button type="button" class="btn btn-primary">Order now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copy">
+        <p>
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          MY SHOP
+        </p>
+      </div>
+      <div class="social pull-right">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-pinterest"></i></a>
+      </div>
+    </footer>
+
+    <script>
+      if ($(window).width() > 992) {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 40) {
+            $("#navbar_top").addClass("fixed-top");
+            // add padding top to show content behind navbar
+            $("body").css("padding-top", $(".navbar").outerHeight() + "px");
+          } else {
+            $("#navbar_top").removeClass("fixed-top");
+            // remove padding top from body
+            $("body").css("padding-top", "0");
+          }
+        });
+      } //
+    </script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+  </body>
+</html>
